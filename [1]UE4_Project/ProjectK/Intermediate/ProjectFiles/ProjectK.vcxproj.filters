@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ProjectK.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{E3913839-21B4-4625-9EC4-D29BCD7B286C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ProjectK.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ProjectKEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{A39CD881-A2F9-4401-983E-899165351510}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ProjectK">
+      <UniqueIdentifier>{924B0B0D-430E-45D3-AF44-887FF44C447B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ProjectK\ProjectK.Build.cs">
+      <Filter>Source\ProjectK</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ProjectK\ProjectK.cpp">
+      <Filter>Source\ProjectK</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectK\ProjectK.h">
+      <Filter>Source\ProjectK</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectK\ProjectKCharacter.cpp">
+      <Filter>Source\ProjectK</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectK\ProjectKCharacter.h">
+      <Filter>Source\ProjectK</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectK\ProjectKGameMode.cpp">
+      <Filter>Source\ProjectK</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectK\ProjectKGameMode.h">
+      <Filter>Source\ProjectK</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectK\ProjectKPlayerController.cpp">
+      <Filter>Source\ProjectK</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectK\ProjectKPlayerController.h">
+      <Filter>Source\ProjectK</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

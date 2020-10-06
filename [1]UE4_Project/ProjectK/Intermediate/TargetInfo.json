@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ProjectK",
+			"Path": "D:\\ue4\\Project\\ProjectK\\Source\\ProjectK.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ProjectKEditor",
+			"Path": "D:\\ue4\\Project\\ProjectK\\Source\\ProjectKEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
