@@ -72,3 +72,117 @@
 
 # Cache files for the editor to use
 [1]UE4_Project/DerivedDataCache/*
+
+
+
+# Created by https://www.toptal.com/developers/gitignore/api/rider,c++
+# Edit at https://www.toptal.com/developers/gitignore?templates=rider,c++
+
+### C++ ###
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+### Rider ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+[1]UE4_Project/.idea/**/workspace.xml
+[1]UE4_Project/.idea/**/tasks.xml
+[1]UE4_Project/.idea/**/usage.statistics.xml
+[1]UE4_Project/.idea/**/dictionaries
+[1]UE4_Project/.idea/**/shelf
+
+# Generated files
+[1]UE4_Project/.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+[1]UE4_Project/.idea/**/dataSources/
+[1]UE4_Project/.idea/**/dataSources.ids
+[1]UE4_Project/.idea/**/dataSources.local.xml
+[1]UE4_Project/.idea/**/sqlDataSources.xml
+[1]UE4_Project/.idea/**/dynamic.xml
+[1]UE4_Project/.idea/**/uiDesigner.xml
+[1]UE4_Project/.idea/**/dbnavigator.xml
+
+# Gradle
+[1]UE4_Project/.idea/**/gradle.xml
+[1]UE4_Project/.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/artifacts
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
+
+# CMake
+[1]UE4_Project/cmake-build-*/
+
+# Mongo Explorer plugin
+[1]UE4_Project/.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+[1]UE4_Project/out/
+
+# mpeltonen/sbt-idea plugin
+[1]UE4_Project/.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+[1]UE4_Project/.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+[1]UE4_Project/.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+[1]UE4_Project/.idea/caches/build_file_checksums.ser
+
+# End of https://www.toptal.com/developers/gitignore/api/rider,c++

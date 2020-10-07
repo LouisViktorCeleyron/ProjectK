@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"D:\\ue4\\Project\\ProjectK\\Source\\ProjectK\\ProjectK.Build.cs",
-		"D:\\ue4\\Project\\ProjectK\\Source\\ProjectK.Target.cs",
-		"D:\\ue4\\Project\\ProjectK\\Source\\ProjectKEditor.Target.cs"
-	],
-	"EngineVersion": "4.25.3"
-}

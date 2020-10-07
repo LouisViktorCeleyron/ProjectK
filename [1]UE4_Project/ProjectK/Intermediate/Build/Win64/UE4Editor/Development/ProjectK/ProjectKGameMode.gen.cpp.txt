@@ -1,9 +1,0 @@
-D:\ue4\Project\ProjectK\Intermediate\Build\Win64\UE4Editor\Development\ProjectK\Definitions.ProjectK.h
-D:\ue4\Engine\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\ue4\Engine\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\ue4\Project\ProjectK\Source\ProjectK/ProjectKGameMode.h
-D:\ue4\Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-D:\ue4\Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-D:\ue4\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-D:\ue4\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-d:\ue4\project\projectk\intermediate\build\win64\ue4editor\inc\projectk\ProjectKGameMode.generated.h
