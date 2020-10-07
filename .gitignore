@@ -52,6 +52,8 @@
 # Builds
 [1]UE4_Project/Build/*
 
+banane.txt
+
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 ![1]UE4_Project/Build/*/
 [1]UE4_Project/Build/*/**
