@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
+
 #include "PK_BattlerAsset.generated.h"
 
 /**
@@ -16,9 +17,9 @@ struct FStat
 
 public:
     UPROPERTY(BlueprintReadOnly,EditAnywhere)
-    int Lv1;
+    int BaseValue;
     UPROPERTY(EditAnywhere,BlueprintReadOnly)
-    int Lv50;
+    int LvMaxAdditionValue;
 
     
     UPROPERTY(BlueprintReadOnly,EditAnywhere)
@@ -43,7 +44,28 @@ class PROJECTK_API UPK_BattlerAsset : public UDataAsset
     FStat Speed;
     UPROPERTY(EditAnywhere,BlueprintReadOnly,Category=Stats)
     FStat Luck;
+
+
+    public:
+    UPROPERTY(EditAnywhere,BlueprintReadOnly,Category=Appearance)
+    UTexture2D* SpriteInGame;
     
+    public:
+
+    UFUNCTION(Category=Stats, BlueprintCallable)
+    void ReturnAllStatAtLevel(
+        UPARAM(DisplayName = "Level")
+            const int PLevel,
+        UPARAM(DisplayName = "HealthPoints")
+            int& RHp,
+        UPARAM(DisplayName = "Attack")
+            int& RAttack,
+        UPARAM(DisplayName = "Defense")
+            int& RDefense,
+        UPARAM(DisplayName = "Speed")
+            int& RSpeed,
+        UPARAM(DisplayName = "Luck")
+            int& RLuck);
 };
 
 

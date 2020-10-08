@@ -17,7 +17,12 @@ class PROJECTK_API UBattlerAssetFunctions : public UBlueprintFunctionLibrary
 	GENERATED_BODY()
 
 	public:
+	static int const MaxLevelValue = 50; 
+	
+	public:
 	UFUNCTION(BlueprintCallable)
-	static int GetStatAtLevel(FStat PStatToExam); 
+	static int GetStatAtLevel(FStat PStatToExam, int PLevel);
+	UFUNCTION(BlueprintCallable,BlueprintPure)
+    static int MaxLevel();
+	
 };
-
