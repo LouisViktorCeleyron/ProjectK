@@ -8,6 +8,8 @@
 /**
  * 
  */
+
+
 USTRUCT(BlueprintType)
 struct FBattler 
 {
