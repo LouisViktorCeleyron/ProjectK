@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "PK_ProcessedBattler.h"
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
 #include "PK_Capacity.generated.h"
@@ -10,18 +11,28 @@
  * 
  */
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE()
 
-UCLASS(Abstract,MinimalAPI)
+UCLASS(Abstract)
 class PROJECTK_API UPK_Capacity : public UDataAsset
 {
 	GENERATED_BODY()
-	
+
+	public:
 };
 
-UCLASS(Abstract,MinimalAPI,Blueprintable)
+
+UCLASS(Abstract,Blueprintable)
 class PROJECTK_API UPK_Passive : public UPK_Capacity
 {
-	
 	GENERATED_BODY()
+	
+	public:
+	UFUNCTION(BlueprintNativeEvent,BlueprintCallable)
+	void EffectOnBattleStart(const TArray<UPK_ProcessedBattler*>& Targets);
+
+	UFUNCTION(BlueprintNativeEvent,BlueprintCallable)
+	void EffectOnBattleEnd(const TArray<UPK_ProcessedBattler*>& Targets);
+
+	UFUNCTION(BlueprintNativeEvent,BlueprintCallable)
+	void PermaEffect(const TArray<UPK_ProcessedBattler*>& Targets);
 };

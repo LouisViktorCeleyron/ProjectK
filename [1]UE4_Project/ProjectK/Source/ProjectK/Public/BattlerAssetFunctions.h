@@ -5,6 +5,8 @@
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "PK_BattlerAsset.h"
+#include "PK_ProcessedBattler.h"
+#include "PlayerStructs.h"
 
 #include "BattlerAssetFunctions.generated.h"
 
@@ -24,5 +26,8 @@ class PROJECTK_API UBattlerAssetFunctions : public UBlueprintFunctionLibrary
 	static int GetStatAtLevel(FStat PStatToExam, int PLevel);
 	UFUNCTION(BlueprintCallable,BlueprintPure)
     static int MaxLevel();
+
+	UFUNCTION(BlueprintCallable)
+	static UPK_ProcessedBattler* CreateProcessedBattler(FBattler POrigin);
 	
 };

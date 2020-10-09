@@ -3,6 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
+
+#include "ProjectK/Public/PK_Capacity.h"
 #include "Engine/DataAsset.h"
 
 #include "PK_BattlerAsset.generated.h"
@@ -49,9 +51,11 @@ class PROJECTK_API UPK_BattlerAsset : public UDataAsset
     public:
     UPROPERTY(EditAnywhere,BlueprintReadOnly,Category=Appearance)
     UTexture2D* SpriteInGame;
-    
-    public:
 
+    UPROPERTY(EditAnywhere,BlueprintReadOnly,Category=Capacities)
+    TMap<int,UPK_Capacity*> CapacityTable;
+
+    public:
     UFUNCTION(Category=Stats, BlueprintCallable)
     void ReturnAllStatAtLevel(
         UPARAM(DisplayName = "Level")

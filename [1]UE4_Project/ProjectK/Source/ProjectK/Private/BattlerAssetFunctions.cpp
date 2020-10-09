@@ -18,3 +18,9 @@ int UBattlerAssetFunctions::MaxLevel()
 {
     return FMath::Max(1,MaxLevelValue);
 }
+
+UPK_ProcessedBattler* UBattlerAssetFunctions::CreateProcessedBattler(FBattler POrigin)
+{
+    const auto VReturn = StaticConstructObject_Internal(UPK_ProcessedBattler::StaticClass());
+    return Cast<UPK_ProcessedBattler>(VReturn);
+}

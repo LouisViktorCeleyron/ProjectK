@@ -15,7 +15,8 @@ struct FBattler
 {
     GENERATED_BODY()
 
-public: 
+public:
+ 
     UPROPERTY(EditAnywhere,BlueprintReadOnly)
     UPK_BattlerAsset* AssetRef;
 
